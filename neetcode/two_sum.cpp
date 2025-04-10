@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
   unordered_map<int,int> hashtable;
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(vector<int>& num, int index) {
       
       int j = 0;
       for (int i : nums)
@@ -19,5 +19,6 @@ public:
       }
 
     return {} ;
+
     }
 };
