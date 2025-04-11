@@ -17,20 +17,21 @@ Visualizing progress is key to motivation! Here's a breakdown of the problems I'
 ```mermaid
 pie
     title Questions Solved by Category
-    "Arrays & Hashing" : 7
-    "Two Pointers" : 0
-    "Sliding Window" : 0
-    "Binary Search" : 0
-    "Stack" : 0
-    "Heap / Priority Queue" : 1
-    "Linked List" : 0
-    "Trees" : 0
-    "Trie" : 0
-    "Backtracking" : 0
-    "Dynamic Programming" : 0
-    "Graph" : 0
-    "Greedy" : 0
-    "Intervals" : 0
+    "Arrays & Hashing": 7
+    "Two Pointers": 0
+    "Sliding Window": 0
+    "Binary Search": 0
+    "Stack": 0
+    "Heap / Priority Queue": 1
+    "Linked List": 0
+    "Trees": 0
+    "Trie": 0
+    "Backtracking": 0
+    "Dynamic Programming": 0
+    "Graph": 0
+    "Greedy": 0
+    "Intervals": 0
+
 
 ## Arrays & Hashing
 
