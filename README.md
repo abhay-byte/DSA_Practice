@@ -32,7 +32,6 @@ pie
     "Greedy" : 0
     "Intervals" : 0
 
-
 ## Arrays & Hashing
 
 | LeetCode ID | Difficulty | Problem                                                                                     | Solution                                                                                                                                                                                                                                                                                                                 |
@@ -46,5 +45,6 @@ pie
 | 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 | [C++](./01_Arrays_&_Hashing/07_Valid_Sudoku/0036-valid-sudoku.cpp) &bull; [Python](./01_Arrays_&_Hashing/07_Valid_Sudoku/0036-valid-sudoku.py) &bull; [Rust](./01_Arrays_&_Hashing/07_Valid_Sudoku/0036-valid-sudoku.rs)                                                                                                 |
 | 271         | Medium     | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       | [C++](./01_Arrays_&_Hashing/08_Encode_and_Decode_Strings/0271-encode-and-decode-strings.cpp) &bull; [Python](./01_Arrays_&_Hashing/08_Encode_and_Decode_Strings/0271-encode-and-decode-strings.py) &bull; [Rust](./01_Arrays_&_Hashing/08_Encode_and_Decode_Strings/0271-encode-and-decode-strings.rs)                   |
 | 128         | Medium     | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [C++](./01_Arrays_&_Hashing/09_Longest_Consecutive_Sequence/0128-longest-consecutive-sequence.cpp) &bull; [Python](./01_Arrays_&_Hashing/09_Longest_Consecutive_Sequence/0128-longest-consecutive-sequence.py) &bull; [Rust](./01_Arrays_&_Hashing/09_Longest_Consecutive_Sequence/0128-longest-consecutive-sequence.rs) |
+
 
 ## Two Pointers
