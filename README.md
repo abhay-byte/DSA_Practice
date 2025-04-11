@@ -16,17 +16,15 @@ Visualizing progress is key to motivation! Here's a breakdown of the problems I'
 
 ## Arrays & Hashing
 
-| LeetCode ID | Difficulty | Problem                                                                                     | C++ Solution                                         |
-| ----------- | ---------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [C++](./neetcode/contains_duplicate.cpp)             |
-| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               | [C++](./neetcode/valid_anagram.cpp)                  |
-| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           | [C++](./neetcode/two_sum.cpp)                        |
-| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             | [C++](./neetcode/group_anagrams.cpp)                 |
-| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           | [C++](./neetcode/top_k_frequent_elements.cpp)        |
-| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./neetcode/product_of_array_except_self.cpp)   |
-| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 | [C++](./neetcode/valid_sudoku.cpp)                   |
-| 271         | Medium     | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       | [C++](./neetcode/encode_and_decode_strings.cpp)      |
-| 128         | Medium     | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [C++](./neetcode/longest_consecutive_sequence.cpp)   |
+| LeetCode ID | Difficulty | Problem                                                                                     | Solution                                     |
+| ----------- | ---------- | ------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [C++](./neetcode/duplicate_integer.cpp)      |
+| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               | [C++](./neetcode/is_anagram.cpp)             |
+| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           | [C++](./neetcode/two_sum.cpp)                |
+| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             | [C++](./neetcode/group_anagram.cpp)          |
+| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           | [C++](./neetcode/top_k_frequent.cpp)         |
+| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./neetcode/product_of_array_except_self.cpp) |
+| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 | [C++](./neetcode/valid_sudoku.cpp)           |
 
 
 
