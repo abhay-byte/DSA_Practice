@@ -14,7 +14,10 @@ Visualizing progress is key to motivation! Here's a breakdown of the problems I'
 
 ## Questions 
 
+Numbers of questions done: 7/150 (Current Target) 
+
 **Progress:** ╰─▎▎▎▎▋──────────────────────────────────────────────────────────────────────────╯ 4.67%
+
 
 ## Arrays & Hashing
 
