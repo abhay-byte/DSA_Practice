@@ -14,29 +14,11 @@ Visualizing progress is key to motivation! Here's a breakdown of the problems I'
 
 ## Questions 
 
-pie
-    title Questions Solved by Category
-    "Arrays & Hashing": 7
-    "Two Pointers": 0
-    "Sliding Window": 0
-    "Binary Search": 0
-    "Stack": 0
-    "Heap / Priority Queue": 0
-    "Linked List": 0
-    "Trees": 0
-    "Trie": 0
-    "Backtracking": 0
-    "Dynamic Programming": 0
-    "Graph": 0
-    "Greedy": 0
-    "Intervals": 0
-
-
 ## Arrays & Hashing
 
 | LeetCode ID | Difficulty | Problem                                                                                     | Solution                                                                                                                                                                                                                                                                                                                 |
 | ----------- | ---------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [C++](./01_Arrays_&_Hashing/01_Contains_Duplicate/0217-contains-duplicate.cpp) &bull; [Python](./01_Arrays_&_Hashing/01_Contains_Duplicate/0217-contains-duplicate.py) &bull; [Rust](./01_Arrays_&_Hashing/01_Contains_Duplicate/0217-contains-duplicate.rs)                                                             |
+| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [C++](./01_Arrays_&_Hashing/01_Contains_Duplicate/0217-contains-duplicate.cpp) &bull; [Python](https://github.com/abhay-byte/DSA_Practice/blob/master/neetcode/duplicate_integer.py)                                                    |
 | 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               | [C++](./01_Arrays_&_Hashing/02_Valid_Anagram/0242-valid-anagram.cpp) &bull; [Python](./01_Arrays_&_Hashing/02_Valid_Anagram/0242-valid-anagram.py) &bull; [Rust](./01_Arrays_&_Hashing/02_Valid_Anagram/0242-valid-anagram.rs)                                                                                           |
 | 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           | [C++](./01_Arrays_&_Hashing/03_Two_Sum/0001-two-sum.cpp) &bull; [Python](./01_Arrays_&_Hashing/03_Two_Sum/0001-two-sum.py) &bull; [Rust](./01_Arrays_&_Hashing/03_Two_Sum/0001-two-sum.rs)                                                                                                                               |
 | 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             | [C++](./01_Arrays_&_Hashing/04_Group_Anagrams/0049-group-anagrams.cpp) &bull; [Python](./01_Arrays_&_Hashing/04_Group_Anagrams/0049-group-anagrams.py) &bull; [Rust](./01_Arrays_&_Hashing/04_Group_Anagrams/0049-group-anagrams.rs)                                                                                     |
