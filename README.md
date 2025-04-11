@@ -1,36 +1,133 @@
-# DSA Practice Repository
+<h1 align="center">
+  <img src="https://i.pinimg.com/originals/9b/28/e4/9b28e4c3123ea698d02c10407b9a94d1.gif" alt="Snow falling banner" width="100%" />
+</h1>
 
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/abhay-byte/DSA_Practice)](https://github.com/abhay-byte/DSA_Practice/commits/main)
-[![GitHub Issues](https://img.shields.io/github/issues/abhay-byte/DSA_Practice)](https://github.com/abhay-byte/DSA_Practice/issues)
-[![License](https://img.shields.io/github/license/abhay-byte/DSA_Practice)](LICENSE)
+<h1 align="left">
+  <pre>
+🧠🌌💻
+██████╗ ███████╗ █████╗
+██╔══██╗██╔════╝██╔══██╗
+██║  ██║███████╗███████║
+██║  ██║╚════██║██╔══██║
+██████╔╝███████║██║  ██║
+╚═════╝ ╚══════╝╚═╝  ╚═╝
+██████╗  ██████╗  ██╗   ██╗ ███████╗ ███████╗ ███████╗ ██╗   ██╗
+██╔══██╗ ██╔══██╗ ╚██╗ ██╔╝ ██╔════╝ ██╔════╝ ██╔════╝ ╚██╗ ██╔╝
+██║  ██║ ██║  ██║  ╚████╔╝  ███████╗ ███████╗ ███████╗  ╚████╔╝
+██║  ██║ ██║  ██║   ╚██╔╝   ╚════██║ ╚════██║ ██╔════╝   ╚██╔╝
+██████╔╝ ██████╔╝    ██║    ███████║ ███████║ ███████║    ██║
+╚═════╝  ╚═════╝     ╚═╝    ╚══════╝ ╚══════╝ ╚══════╝    ╚═╝
+🚀📘 DSA Odyssey: Cracking Problems, One Line of Code at a Time 🌌💻
+  </pre></h1>
 
-This repository serves as a dedicated space for my journey in mastering Data Structures and Algorithms (DSA). My primary resource is the [NeetCode Roadmap](https://neetcode.io/roadmap), a curated and structured path through essential coding interview questions.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=58A6FF&size=22&center=true&vCenter=true&width=700&height=45&lines=Welcome+to+My+DSA+Journey!;Solving+150+NeetCode+Problems;Leveling+Up+1+Problem+at+a+Time!+💪🚀" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/abhay-byte/DSA_Practice/commits/main"><img src="https://img.shields.io/github/last-commit/abhay-byte/DSA_Practice" /></a>
+  <a href="https://github.com/abhay-byte/DSA_Practice/issues"><img src="https://img.shields.io/github/issues/abhay-byte/DSA_Practice" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/abhay-byte/DSA_Practice" /></a>
+  <img src="https://img.shields.io/badge/❄️%20Winter%20Coding%20Mode-Activated-blue" />
+</p>
 
 ---
 
-## ✅ Progress Overview
+## 📊 <p align="center">Progress at a Glance 🎯</p>
 
-Visualizing progress is key to motivation! Here's a breakdown of the problems I've solved, categorized by NeetCode's roadmap sets.
+<p align="center">Motivation thrives on visualization! Here's a snapshot of my journey through the NeetCode roadmap.</p>
 
-## Questions 
+### ✅ Questions Solved
 
-Numbers of questions done: 7/150 (Current Target) 
+<p align="center">
+  <span>░█░░░░░░░░░░░░░░░░░░░░░░ </span>
+  <br />
+  <strong style="font-size: 1.2em;">Completed:</strong>
+  <span style="color: #2ecc71; font-weight: bold;">7</span> /
+  <span style="color: #e74c3c; font-weight: bold;">150</span>
+  <span style="color: #3498db; font-weight: bold;">(4.67%)</span>
+</p>
 
-**Progress:** ╰─▎▎▎▎▋──────────────────────────────────────────────────────────────────────────╯ 4.67%
+---
 
+## 🧱 Arrays & Hashing
 
-## Arrays & Hashing
+<p align="center">
+  Starting strong with fundamentals! Arrays and hashing build the core for solving real-world DSA problems. 🚀
+</p>
 
-| LeetCode ID | Difficulty | Problem                                                                                     | Solution                                     |
-| ----------- | ---------- | ------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [C++](./neetcode/duplicate_integer.cpp)      |
-| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               | [C++](./neetcode/is_anagram.cpp)             |
-| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           | [C++](./neetcode/two_sum.cpp)                |
-| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             | [C++](./neetcode/group_anagram.cpp)          |
-| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           | [C++](./neetcode/top_k_frequent.cpp)         |
-| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./neetcode/product_of_array_except_self.cpp) |
-| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 | [C++](./neetcode/valid_sudoku.cpp)           |
+<table align="center">
+  <thead>
+    <tr>
+      <th>LeetCode ID</th>
+      <th>Difficulty</th>
+      <th>Problem</th>
+      <th>Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>217</td>
+      <td><span style="color: #2ecc71;">Easy</span></td>
+      <td><a href="https://leetcode.com/problems/contains-duplicate/" target="_blank">Contains Duplicate</a></td>
+      <td><a href="./neetcode/duplicate_integer.cpp" target="_blank">C++</a></td>
+    </tr>
+    <tr>
+      <td>242</td>
+      <td><span style="color: #2ecc71;">Easy</span></td>
+      <td><a href="https://leetcode.com/problems/valid-anagram/" target="_blank">Valid Anagram</a></td>
+      <td><a href="./neetcode/is_anagram.cpp" target="_blank">C++</a></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><span style="color: #2ecc71;">Easy</span></td>
+      <td><a href="https://leetcode.com/problems/two-sum/" target="_blank">Two Sum</a></td>
+      <td><a href="./neetcode/two_sum.cpp" target="_blank">C++</a></td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td><span style="color: #f39c12;">Medium</span></td>
+      <td><a href="https://leetcode.com/problems/group-anagrams/" target="_blank">Group Anagrams</a></td>
+      <td><a href="./neetcode/group_anagram.cpp" target="_blank">C++</a></td>
+    </tr>
+    <tr>
+      <td>347</td>
+      <td><span style="color: #f39c12;">Medium</span></td>
+      <td><a href="https://leetcode.com/problems/top-k-frequent-elements/" target="_blank">Top K Frequent Elements</a></td>
+      <td><a href="./neetcode/top_k_frequent.cpp" target="_blank">C++</a></td>
+    </tr>
+    <tr>
+      <td>238</td>
+      <td><span style="color: #f39c12;">Medium</span></td>
+      <td><a href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank">Product of Array Except Self</a></td>
+      <td><a href="./neetcode/product_of_array_except_self.cpp" target="_blank">C++</a></td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td><span style="color: #f39c12;">Medium</span></td>
+      <td><a href="https://leetcode.com/problems/valid-sudoku/" target="_blank">Valid Sudoku</a></td>
+      <td><a href="./neetcode/valid_sudoku.cpp" target="_blank">C++</a></td>
+    </tr>
+  </tbody>
+</table>
 
+---
 
+## ➡️ Two Pointers
 
-## Two Pointers
+<p align="center">
+  The adventure continues with Two Pointers – elegant and efficient! 🔁
+</p>
+
+---
+
+## 🧠 Stay Tuned!
+
+> I'm adding new problems weekly. This is just the beginning — feel free to ⭐ the repo and follow my journey.
+> Let's master DSA together through the cold and code! ❄️💻
+
+---
+<div align="center">
+
+Made with 💜 by [abhay-byte](https://github.com/abhay-byte)
+</div>
