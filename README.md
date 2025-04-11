@@ -14,7 +14,6 @@ Visualizing progress is key to motivation! Here's a breakdown of the problems I'
 
 ## Questions 
 
-```mermaid
 pie
     title Questions Solved by Category
     "Arrays & Hashing": 7
@@ -22,7 +21,7 @@ pie
     "Sliding Window": 0
     "Binary Search": 0
     "Stack": 0
-    "Heap / Priority Queue": 1
+    "Heap / Priority Queue": 0
     "Linked List": 0
     "Trees": 0
     "Trie": 0
