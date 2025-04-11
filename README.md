@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img src="https://i.pinimg.com/originals/9b/28/e4/9b28e4c3123ea698d02c10407b9a94d1.gif" alt="Snow falling banner" width="100%" />
-</h1>
+<span align="left">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Snow falling banner" width="100%" />
+</span>
 
 <h1 align="left">
   <pre>
@@ -19,7 +19,21 @@
 ╚═════╝  ╚═════╝     ╚═╝    ╚══════╝ ╚══════╝ ╚══════╝    ╚═╝
 🚀📘 DSA Odyssey: Cracking Problems, One Line of Code at a Time 🌌💻
   </pre></h1>
-
+<span align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216649426-0c2ee152-84d8-4707-85c4-27a378d2f78a.gif" alt="Snow falling banner" width="15%" />
+</span>
+<span align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656952-f8beff5b-935b-4157-a199-5c504b36a810.gif" alt="Snow falling banner" width="15%" />
+</span>
+<span align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656963-09118229-8a9e-4af0-910c-c37f35f2e210.gif" width="15%" />
+</span>
+<span align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656986-e4424d73-56dd-4e0d-96ac-66f9f2c3be42.gif" width="15%" />
+</span>
+<span align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-49bf-4744-85a8-db8a2577c45c.gif" width="15%" />
+</span>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=58A6FF&size=22&center=true&vCenter=true&width=700&height=45&lines=Welcome+to+My+DSA+Journey!;Solving+150+NeetCode+Problems;Leveling+Up+1+Problem+at+a+Time!+💪🚀" />
 </p>
