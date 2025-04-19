@@ -19,7 +19,8 @@
 ╚═════╝  ╚═════╝     ╚═╝    ╚══════╝ ╚══════╝ ╚══════╝    ╚═╝
 🚀📘 DSA Odyssey: Cracking Problems, One Line of Code at a Time 🌌💻
   </pre></h1>
-<span align="center">
+  <div align = "center">
+  <span align="center">
   <img src="https://user-images.githubusercontent.com/74038190/216649426-0c2ee152-84d8-4707-85c4-27a378d2f78a.gif" alt="Snow falling banner" width="15%" />
 </span>
 <span align="center">
@@ -34,6 +35,8 @@
 <span align="center">
   <img src="https://user-images.githubusercontent.com/74038190/216655818-2e7b9a31-49bf-4744-85a8-db8a2577c45c.gif" width="15%" />
 </span>
+  </div>
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=58A6FF&size=22&center=true&vCenter=true&width=700&height=45&lines=Welcome+to+My+DSA+Journey!;Solving+150+NeetCode+Problems;Leveling+Up+1+Problem+at+a+Time!+💪🚀" />
 </p>
