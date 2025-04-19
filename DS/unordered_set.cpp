@@ -1,4 +1,6 @@
 #include <unordered_set>
+#include <iostream>
+using namespace std;
 
 void unordered_set_example() {
     unordered_set<int> us;

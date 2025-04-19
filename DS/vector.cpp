@@ -1,4 +1,6 @@
 #include <vector>
+#include <iostream>
+using namespace std;
 
 void vector_example() {
     vector<int> v;

@@ -51,15 +51,32 @@
 
 <p align="center">Motivation thrives on visualization! Here's a snapshot of my journey through the NeetCode roadmap.</p>
 
-### ✅ Questions Solved
+### ✅ Questions Solved (NeetCode)
 
 <p align="center">
-  <span>░█░░░░░░░░░░░░░░░░░░░░░░ </span>
+  <span>░░█░░░░░░░░░░░░░░░░░░░░░ </span>
   <br />
   <strong style="font-size: 1.2em;">Completed:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">7</span> /
+  <span style="color: #2ecc71; font-weight: bold;">13</span> /
   <span style="color: #e74c3c; font-weight: bold;">150</span>
-  <span style="color: #3498db; font-weight: bold;">(4.67%)</span>
+  <span style="color: #3498db; font-weight: bold;">(8.67%)</span>
+</p>
+
+### ✅ Questions Solved (LeetCode)
+  [LeetCode Profile](https://leetcode.com/u/abhay-byte/)
+<p align="center">
+  <strong style="font-size: 1.2em;">Solved:</strong>
+  <span style="color: #2ecc71; font-weight: bold;">16 Questions</span> 
+  <br />
+    <strong style="font-size: 1.2em;">Easy:</strong>
+  <span style="color: #2ecc71; font-weight: bold;">8 Questions</span> 
+  <br />
+    <strong style="font-size: 1.2em;">Medium:</strong>
+  <span style="color: #2ecc71; font-weight: bold;">8 Questions</span> 
+  <br />
+    <strong style="font-size: 1.2em;">Hard:</strong>
+  <span style="color: #2ecc71; font-weight: bold;">0 Questions</span> 
+  <br />
 </p>
 
 ---

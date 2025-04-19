@@ -9,7 +9,7 @@ int main() {
     // Sort list using std::list::sort
     lst.sort();
 
-    cout << "Sorted list: ";
+    cout << "\nSorted list: ";
     for (int num : lst) {
         cout << num << " ";
     }
