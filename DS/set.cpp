@@ -1,4 +1,6 @@
 #include <set>
+#include <iostream>
+using namespace std;
 
 void set_example() {
     set<int> s;
@@ -17,7 +19,7 @@ void set_example() {
 
     // Specialty: unique + sorted
 }
-
+//if(my_set.insert("value").second == false)
 // Check element in set
 void set_check_example() {
     set<int> s = {10, 20, 30};

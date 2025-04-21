@@ -1,5 +1,7 @@
 #include <queue>
+#include <iostream>
 
+using namespace std;
 void priority_queue_example() {
     priority_queue<int> pq;
 
