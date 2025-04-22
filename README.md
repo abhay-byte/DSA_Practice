@@ -60,9 +60,9 @@
   <span>░░█░░░░░░░░░░░░░░░░░░░░░ </span>
   <br />
   <strong style="font-size: 1.2em;">Completed:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">18</span> /
+  <span style="color: #2ecc71; font-weight: bold;">20</span> /
   <span style="color: #e74c3c; font-weight: bold;">150</span>
-  <span style="color: #3498db; font-weight: bold;">(12.0%)</span>
+  <span style="color: #3498db; font-weight: bold;">(13.3%)</span>
 </p>
 
 ### ✅ Questions Solved (LeetCode)
