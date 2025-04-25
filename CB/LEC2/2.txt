@@ -1,0 +1,19 @@
+BEGIN
+    READ N // Get the number of rows/initial width
+
+    // Outer loop: Controls the rows, counts down from N to 1
+    FOR i FROM N DOWNTO 1
+        // Inner loop 1: Prints leading spaces
+        FOR k FROM (N - i) TO 1
+            PRINT " " // Print a single space
+        END FOR
+
+        // Inner loop 2: Prints the stars for the current row
+        FOR j FROM i TO 1
+            PRINT "*"
+        END FOR
+
+        // Move to the next line after printing spaces and stars for the row
+        PRINT NEWLINE
+    END FOR
+END

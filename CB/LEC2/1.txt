@@ -1,0 +1,11 @@
+BEGIN
+    READ  N // Number of rows / initial stars
+  // Loop through each row, decreasing star count
+    FOR row FROM N DOWNTO 1
+    // Print stars for the current row
+        FOR star_count FROM 1 TO row
+            PRINT "*"
+        END FOR
+    PRINT NEWLINE // Move cursor to the next line
+    END FOR
+END

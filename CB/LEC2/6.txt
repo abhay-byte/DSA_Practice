@@ -1,0 +1,19 @@
+BEGIN
+  DECLARE n AS INTEGER
+  READ n
+
+  FOR i FROM 0 TO n - 1 DO
+
+    FOR j FROM 0 TO (n - i - 2) DO
+      PRINT " "
+    END FOR
+
+    FOR k FROM 0 TO n - 1 DO
+      PRINT "*"
+    END FOR
+
+    PRINT NEWLINE
+
+  END FOR
+
+END

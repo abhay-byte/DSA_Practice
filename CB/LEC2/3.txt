@@ -1,0 +1,27 @@
+BEGIN
+  DECLARE n AS INTEGER
+  DECLARE x AS INTEGER
+
+  SET x = 0
+  READ n
+
+  FOR i FROM 0 TO n - 1 DO
+
+    FOR j FROM 0 TO (n - i) - 1 DO
+      PRINT "*"
+    END FOR
+
+    FOR h FROM 0 TO x - 1 DO
+      PRINT " "
+    END FOR
+
+    FOR j FROM n + i TO (2 * n) - 1 DO
+      PRINT "*"
+    END FOR
+
+    SET x = x + 2
+    PRINT NEWLINE
+
+  END FOR
+
+END
