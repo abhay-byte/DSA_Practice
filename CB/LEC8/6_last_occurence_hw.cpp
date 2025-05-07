@@ -9,25 +9,18 @@ int main()
     int size = sizeof(arr)/sizeof(int);
     int no_of_occurences = -1;
     int target = 10;
-
-    //linear search
-    //worst case will be when target not found, O(n)
-
     for(int j=size-1; j>=0 ;j--)
     {
         if(arr[j]==target)
         {
             no_of_occurences++;
             cout << "\nLast Occurence is at index: " << j;
-            break;
-           
+            break; 
         }
     }
     if (no_of_occurences==-1)
-    {
         cout << "\nTarget not found.";
-    }
+        
     return 0;
-    
 
 }

@@ -8,7 +8,7 @@ int main()
 
   cin >> a >> b >> c;
 
-  if(a > b and a > c)
+  if(a > b && a > c)
   {
     cout << a;  
   }

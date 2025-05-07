@@ -9,25 +9,13 @@ int main()
     int size = sizeof(arr)/sizeof(int);
     int left = 0;
     int right = size-1; //Two Pointer Approach
-    for(left;left<size;left++) //n/2 iteration, const work, ~O(n)
-    {
-        if(left<right)
-        {
-            swap(arr[left], arr[right]);
-        }
-        right--;
-
+    while(left<right) {
+        swap(arr[left], arr[right]);
+        left++; right--;
     }
-    // while(left<right)
-    // {
-    //     swap(arr[left], arr[right]);
-    //     left++; right--;
-    // }
-
     for(int i = 0; i < size; i++)
-    {
         cout << arr[i] << " ";
-    }
+    
 
     return 0;
 }
