@@ -1,4 +1,5 @@
 #include <map>
+using namespace std;
 
 void map_example() {
     map<string, int> mp;
