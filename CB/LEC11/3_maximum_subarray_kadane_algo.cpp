@@ -20,8 +20,8 @@ int maxSubArraySumUsingKadane(int arr[], int n)
 
 int main()
 {
-    int arr[] = {-3,2,-1,4,-5};
-    int n = 5;
+    int arr[] = {1};
+    int n = 1;
 
     cout << maxSubArraySumUsingKadane(arr,n);
 

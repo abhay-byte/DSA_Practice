@@ -2,10 +2,7 @@
 #include <climits>
 using namespace std;
 
-//t:O(n) s:0(n)
-
-int maxSubArraySumUsingKadane(int arr[], int n)
-
+int maxSubArraySumUsingKadane(int arr[], int n){
     int x;
     x = arr[0];
     int maxSoFar = x;
@@ -16,14 +13,12 @@ int maxSubArraySumUsingKadane(int arr[], int n)
         maxSoFar = max(maxSoFar,x);
     }
     return maxSoFar;
-
-
+}
 
 int main()
 {
-    int arr[] = {-3,2,-1,4,-5};
-    int n = 5;
-
+    int arr[] = {1};
+    int n = 1;
     cout << maxSubArraySumUsingKadane(arr,n);
-
 }
+
