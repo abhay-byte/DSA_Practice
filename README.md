@@ -45,7 +45,6 @@
   <a href="https://github.com/abhay-byte/DSA_Practice/commits/main"><img src="https://img.shields.io/github/last-commit/abhay-byte/DSA_Practice" /></a>
   <a href="https://github.com/abhay-byte/DSA_Practice/issues"><img src="https://img.shields.io/github/issues/abhay-byte/DSA_Practice" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/github/license/abhay-byte/DSA_Practice" /></a>
-  <img src="https://img.shields.io/badge/❄️%20Winter%20Coding%20Mode-Activated-blue" />
 </p>
 
 ---
@@ -57,108 +56,33 @@
 ### ✅ Questions Solved (NeetCode)
 
 <p align="center">
-  <span>░░█░░░░░░░░░░░░░░░░░░░░░ </span>
+  <span>░░░░█░░░░░░░░░░░░░░░░░░░ </span>
   <br />
   <strong style="font-size: 1.2em;">Completed:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">20</span> /
+  <span style="color: #2ecc71; font-weight: bold;">32</span> /
   <span style="color: #e74c3c; font-weight: bold;">150</span>
-  <span style="color: #3498db; font-weight: bold;">(13.3%)</span>
-</p>
-
-### ✅ Questions Solved (LeetCode)
-  [LeetCode Profile](https://leetcode.com/u/abhay-byte/)
-<p align="center">
-  <strong style="font-size: 1.2em;">Solved:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">24 Questions</span> 
-  <br />
-    <strong style="font-size: 1.2em;">Easy:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">9 Questions</span> 
-  <br />
-    <strong style="font-size: 1.2em;">Medium:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">14 Questions</span> 
-  <br />
-    <strong style="font-size: 1.2em;">Hard:</strong>
-  <span style="color: #2ecc71; font-weight: bold;">1 Questions</span> 
-  <br />
+  <span style="color: #3498db; font-weight: bold;">(21.33%)</span>
 </p>
 
 ---
 
-## 🧱 Arrays & Hashing
+# ✅ Questions Solved (LeetCode)
 
-<p align="center">
-  Starting strong with fundamentals! Arrays and hashing build the core for solving real-world DSA problems. 🚀
-</p>
+[LeetCode Profile](https://leetcode.com/u/abhay-byte/)
 
-<table align="center">
-  <thead>
-    <tr>
-      <th>LeetCode ID</th>
-      <th>Difficulty</th>
-      <th>Problem</th>
-      <th>Solution</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>217</td>
-      <td><span style="color: #2ecc71;">Easy</span></td>
-      <td><a href="https://leetcode.com/problems/contains-duplicate/" target="_blank">Contains Duplicate</a></td>
-      <td><a href="./neetcode/duplicate_integer.cpp" target="_blank">C++</a></td>
-    </tr>
-    <tr>
-      <td>242</td>
-      <td><span style="color: #2ecc71;">Easy</span></td>
-      <td><a href="https://leetcode.com/problems/valid-anagram/" target="_blank">Valid Anagram</a></td>
-      <td><a href="./neetcode/is_anagram.cpp" target="_blank">C++</a></td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td><span style="color: #2ecc71;">Easy</span></td>
-      <td><a href="https://leetcode.com/problems/two-sum/" target="_blank">Two Sum</a></td>
-      <td><a href="./neetcode/two_sum.cpp" target="_blank">C++</a></td>
-    </tr>
-    <tr>
-      <td>49</td>
-      <td><span style="color: #f39c12;">Medium</span></td>
-      <td><a href="https://leetcode.com/problems/group-anagrams/" target="_blank">Group Anagrams</a></td>
-      <td><a href="./neetcode/group_anagram.cpp" target="_blank">C++</a></td>
-    </tr>
-    <tr>
-      <td>347</td>
-      <td><span style="color: #f39c12;">Medium</span></td>
-      <td><a href="https://leetcode.com/problems/top-k-frequent-elements/" target="_blank">Top K Frequent Elements</a></td>
-      <td><a href="./neetcode/top_k_frequent.cpp" target="_blank">C++</a></td>
-    </tr>
-    <tr>
-      <td>238</td>
-      <td><span style="color: #f39c12;">Medium</span></td>
-      <td><a href="https://leetcode.com/problems/product-of-array-except-self/" target="_blank">Product of Array Except Self</a></td>
-      <td><a href="./neetcode/product_of_array_except_self.cpp" target="_blank">C++</a></td>
-    </tr>
-    <tr>
-      <td>36</td>
-      <td><span style="color: #f39c12;">Medium</span></td>
-      <td><a href="https://leetcode.com/problems/valid-sudoku/" target="_blank">Valid Sudoku</a></td>
-      <td><a href="./neetcode/valid_sudoku.cpp" target="_blank">C++</a></td>
-    </tr>
-  </tbody>
-</table>
+## Distribution of Questions Solved
 
----
+| Difficulty | Questions Solved | Percentage |
+|------------|------------------|------------|
+| Easy       | 17              | 32.7%      |
+| Medium     | 32              | 61.5%      |
+| Hard       | 3               | 5.8%       |
 
-## ➡️ Two Pointers
+## Visualization
 
-<p align="center">
-  The adventure continues with Two Pointers – elegant and efficient! 🔁
-</p>
-
----
-
-## 🧠 Stay Tuned!
-
-> I'm adding new problems weekly. This is just the beginning — feel free to ⭐ the repo and follow my journey.
-> Let's master DSA together through the cold and code! ❄️💻
+- 🟢 **Easy**: 17 Questions (32.7%)
+- 🔵 **Medium**: 32 Questions (61.5%)
+- 🔴 **Hard**: 3 Questions (5.8%)
 
 ---
 <div align="center">
