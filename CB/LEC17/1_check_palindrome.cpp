@@ -13,7 +13,7 @@ bool isPalindrome(char str[])
         if(str[i] == str[j])
         {
             i++;
-            j++;
+            j--;
         }
         else{
             return false;
