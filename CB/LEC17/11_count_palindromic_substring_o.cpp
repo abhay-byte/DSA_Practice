@@ -3,6 +3,15 @@
 #include<iomanip>
 using namespace std;
 
+/*
+    Time Complexity:
+        O(n^2), where n is the length of the input string.
+        For each character (and between characters), the function expands outwards to check for palindromes.
+
+    Space Complexity:
+        O(1), as the algorithm uses only a constant amount of extra space (excluding input and output).
+*/
+
 bool isPalindrome(const string& str)
 {
     int i = 0;
