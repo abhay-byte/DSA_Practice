@@ -1,6 +1,9 @@
 #include <iostream>
 #include <set>
+#include <vector>
 using namespace std;
+
+vector<string> result;
 
 void f(int n, char out[], int i, int oc, int cc)
 {
@@ -9,12 +12,13 @@ void f(int n, char out[], int i, int oc, int cc)
     if (i == 2*n || (oc == n && cc == n))
     {
         out[i] = '\0';
-        cout << out << endl;
+        result.push_back(string(out));
         return;
     }
 
     // recurive call
     // option 1 opening bracket
+    
     if (oc < n)
     {
         out[i] = '(';
