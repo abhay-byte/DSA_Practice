@@ -20,6 +20,10 @@ int main() {
         }
         if (!isToeplitz) break;
     }
-    cout << (isToeplitz ? "true" : "false") << endl;
+    if (isToeplitz) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
+    }
     return 0;
 }
