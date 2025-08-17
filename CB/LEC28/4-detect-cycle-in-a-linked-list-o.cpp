@@ -14,23 +14,21 @@ public:
 
 bool DetectCycle(ListNode *head)
 {
-    ListNode *slow = head;
-    ListNode *fast = head;
+	ListNode* slow = head;
+	ListNode* fast = head;
 
-    while(fast != NULL || fast->next != NULL)
-    {
+	while (fast != NULL and fast->next != NULL) {
+		slow = slow->next;
+		fast = fast->next->next;
+		if (slow == fast) {
+			// you've found a cycle
+			return true;
+		}
+	}
 
-        fast = fast->next->next;
-        slow = slow->next;
+	// no cycle found
+	return false;
 
-        if(fast == slow)
-        {
-            return true;
-        }
-    }
-
-    
-    return false;
 }
 
 int main()

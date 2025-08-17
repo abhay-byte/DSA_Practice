@@ -30,30 +30,52 @@ void printLinkedList(ListNode *head)
 
 ListNode *RemoveDuplicate(ListNode *head)
 {
+    if (!head || !head->next) // empty or single-node list
+        return head;
 
-    ListNode* curNode = head->next;
-    ListNode* prevNode = head;
+    ListNode *prev = head;
+    ListNode *cur = head->next;
 
-    while(curNode!=NULL){
-
-        if(curNode->val == prevNode->val)
+    while (cur != nullptr)
+    {
+        if (cur->val != prev->val)
         {
-            curNode = curNode->next;
+            prev->next = cur;
+            prev = cur;
         }
-        else
-        {
-            prevNode->next = curNode;
-            prevNode = curNode;
-            curNode = curNode->next;
-        }
-
+        cur = cur->next;
     }
 
-    prevNode->next = NULL;
-
+    prev->next = nullptr;
     return head;
-
 }
+
+
+class Solution
+{
+public:
+    ListNode *deleteDuplicates(ListNode *head)
+    {
+        if (!head || !head->next) // empty or single-node list
+            return head;
+
+        ListNode *prev = head;
+        ListNode *cur = head->next;
+
+        while (cur != nullptr)
+        {
+            if (cur->val != prev->val)
+            {
+                prev->next = cur;
+                prev = cur;
+            }
+            cur = cur->next;
+        }
+
+        prev->next = nullptr;
+        return head;
+    }
+};
 
 int main()
 {
