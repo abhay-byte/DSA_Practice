@@ -1,46 +1,76 @@
-#include <deque>
 #include <iostream>
 using namespace std;
 
 template <typename T>
-class stack
+class ListNode
 {
+public:
+    T val;
+    ListNode *next;
 
-    deque<T> d;
+    ListNode(T x) : val(x), next(NULL) {}
+};
+
+template <typename T>
+class Stack
+{
+    ListNode<T> *head = NULL;
+    ListNode<T> *topNode = NULL;
+    int count = 0;  // track number of elements
 
 public:
     void push(T val)
     {
-        d.push_back(val);
+        // Instead of inserting at tail, we insert at head for O(1) push/pop
+        ListNode<T> *node = new ListNode<T>(val);
+        node->next = head;
+        head = node;
+        topNode = node; // head is always top
+        count++;
     }
 
     void pop()
     {
-        d.pop_back();
+        if (head != NULL)
+        {
+            ListNode<T> *temp = head;
+            head = head->next;
+            delete temp;
+            count--;
+            if (head != NULL)
+                topNode = head;
+            else
+                topNode = NULL;
+        }
+        else
+        {
+            cout << "Stack is empty, cannot pop." << endl;
+        }
     }
 
-    T size()
+    int size()
     {
-        return d.size();
+        return count;
     }
 
     T top()
     {
-        return d.back();
+        if (topNode != NULL)
+            return topNode->val;
+        throw runtime_error("Stack is empty. No top element.");
     }
 
     bool empty()
     {
-        return d.empty();
+        return count == 0;
     }
 };
 
 int main()
 {
-    stack<int> s;
+    Stack<int> s;
 
     cout << "size: " << s.size() << endl;
-    // cout << "top: " << s.top() << endl;
     cout << "isEmpty ? " << s.empty() << endl;
 
     s.push(10);
