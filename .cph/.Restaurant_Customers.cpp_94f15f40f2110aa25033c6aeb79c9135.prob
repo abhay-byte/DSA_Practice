@@ -1,0 +1,1 @@
+{"name":"Restaurant Customers","url":"https://cses.fi/problemset/task/1619","interactive":false,"memoryLimit":512,"timeLimit":1000,"group":"CSES - CSES Problem Set","tests":[{"id":1754825873288,"input":"3\n5 8\n2 4\n3 9\n","output":"2\n"}],"srcPath":"/home/abhay/repos/DSA_Practice/Restaurant_Customers.cpp"}
