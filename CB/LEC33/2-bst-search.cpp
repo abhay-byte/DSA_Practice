@@ -1,5 +1,5 @@
-#include<iostream>
-#include<queue>
+#include <iostream>
+#include <queue>
 using namespace std;
 
 class TreeNode
@@ -17,7 +17,6 @@ public:
         this->right = NULL;
     }
 };
-
 
 void printPreOrder(TreeNode *root)
 {
@@ -45,7 +44,6 @@ void printPreOrder(TreeNode *root)
 
     printPreOrder(root->right);
 }
-
 
 void printLevelOrder(TreeNode *root)
 {
@@ -81,32 +79,58 @@ void printLevelOrder(TreeNode *root)
     }
 }
 
-TreeNode* insert(TreeNode* root, int key)
+TreeNode *insert(TreeNode *root, int key)
 {
-    //base case
-    if(root == NULL)
+    // base case
+    if (root == NULL)
     {
         return new TreeNode(key);
     }
 
-    //recursive case
+    // recursive case
 
-    if(key < root->val)
+    if (key < root->val)
     {
         root->left = insert(root->left, key);
     }
-    else{
+    else
+    {
         root->right = insert(root->right, key);
     }
 
     return root;
 }
 
+bool searchBST(TreeNode *root, int key)
+{
+    // base case
+    if (root == NULL)
+    {
+        return false;
+    }
+
+    if (root->val == key)
+    {
+        return true;
+    }
+
+    // recursive case
+
+    if (root->val > key)
+    {
+        return searchBST(root->left, key);
+    }
+    else
+    {
+        return searchBST(root->right, key);
+    }
+}
+
 int main()
 {
-    TreeNode* root = NULL;
+    TreeNode *root = NULL;
 
-    root = insert(root,10);
+    root = insert(root, 10);
 
     root = insert(root, 5);
     root = insert(root, 15);
@@ -115,11 +139,5 @@ int main()
     root = insert(root, 13);
     root = insert(root, 17);
 
-    printLevelOrder(root);
-
-    cout << endl;
-
-    printPreOrder(root);
-    
+    cout << searchBST(root, 5);
 }
-

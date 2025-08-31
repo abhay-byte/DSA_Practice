@@ -87,7 +87,6 @@ Pair checkHeightBalancedOptimized(TreeNode *root)
     return p;
 }
 
-
 int main()
 {
 
