@@ -128,7 +128,7 @@ int main()
     cout << checkBSTOptimized(root).isBal << endl;
 
     long long lb = (long long) INT_MIN - 1;
-    long long rb = (long long) INT_MAX - 1;
+    long long rb = (long long) INT_MAX + 1;
 
     cout << checkBSTRange(root,lb,rb) << endl;
 }
